@@ -1,0 +1,30 @@
+{
+  "name": "documents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaeljoer/documents.git"
+  },
+  "author": "Raphael Joer | ra.joer@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaeljoer/documents/issues"
+  },
+  "homepage": "https://github.com/raphaeljoer/documents#readme",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "eslint": "^8.48.0",
+    "tsup": "^7.2.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.3"
+  }
+}
