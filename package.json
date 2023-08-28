@@ -7,7 +7,8 @@
     "start": "tsx src/server.ts",
     "dev": "tsx watch src/server.ts",
     "build": "tsup src",
-    "test": "vitest"
+    "test": "vitest run --coverage",
+    "test:ui": "vitest ui"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,11 @@
   "homepage": "https://github.com/raphaeljoer/documents#readme",
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
+    "@vitest/coverage-istanbul": "^0.34.3",
+    "@vitest/coverage-v8": "^0.34.3",
+    "@vitest/ui": "^0.34.3",
     "eslint": "^8.48.0",
+    "sonar-scanner": "^3.1.0",
     "tsup": "^7.2.0",
     "tsx": "^3.12.7",
     "typescript": "^5.2.2",
